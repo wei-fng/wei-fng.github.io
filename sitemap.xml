@@ -2,33 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Update the domain to your actual website URL -->
   <url>
-    <loc>https://yourwebsite.com/</loc>
+    <loc>https://wei-fng.github.io/</loc>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://yourwebsite.com/publications.html</loc>
+    <loc>https://wei-fng.github.io/publications.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://yourwebsite.com/projects.html</loc>
+    <loc>https://wei-fng.github.io/projects.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  
+  
   <url>
-    <loc>https://yourwebsite.com/blogs.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://yourwebsite.com/photography.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://yourwebsite.com/cv.html</loc>
+    <loc>https://wei-fng.github.io/cv.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-</urlset>
+<url><loc>https://wei-fng.github.io/activities.html</loc><changefreq>monthly</changefreq></url></urlset>

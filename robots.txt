@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap location (update with your actual domain)
-Sitemap: https://yourwebsite.com/sitemap.xml
+Sitemap: https://wei-fng.github.io/sitemap.xml
 
 # Optional: Disallow specific directories if needed
 # Disallow: /private/

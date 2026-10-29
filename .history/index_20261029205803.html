@@ -1,0 +1,634 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Wei Feng</title>
+  <meta name="author" content="Wei Feng">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+    content="Wei Feng (冯薇), Ph.D. student at Lab. AAA, School of Architecture, Southeast University.">
+  <meta name="keywords" content="Wei Feng, 冯薇, Southeast University, Architecture, Lab AAA">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph tags for social media -->
+  <meta property="og:title" content="Wei Feng - Southeast University">
+  <meta property="og:description" content="Ph.D. student at Lab. AAA, Southeast University, advised by Prof. Tang Peng.">
+  <meta property="og:image" content="photos\fengwei.jpg">
+  <meta property="og:url" content="https://wei-fng.github.io/">
+  <meta property="og:type" content="profile">
+
+  <!-- Twitter Card tags -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Wei Feng - Southeast University">
+  <meta name="twitter:description" content="Ph.D. student at Lab. AAA, Southeast University, advised by Prof. Tang Peng.">
+  <meta name="twitter:image" content="https://archialgo-com-sources.oss-cn-hangzhou.aliyuncs.com/images/fengwei.jpg">
+
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="shared-styles.css">
+  <link rel="icon" type="image/png" href="figures/logo.png">
+
+  <!-- Preload critical assets -->
+  <link rel="preload" href="photos/fengwei.jpg" as="image">
+  <link rel="preload" href="https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjx4wXiWtFCc.woff2" as="font"
+    type="font/woff2" crossorigin>
+
+  <!-- DNS prefetch for external domains -->
+  <link rel="dns-prefetch" href="//fonts.gstatic.com">
+
+  <!-- Structured Data for SEO -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Wei Feng",
+  "alternateName": "冯薇",
+  "url": "https://wei-fng.github.io/",
+  "email": "wei.feng@seu.edu.cn",
+  "affiliation": {
+    "@type": "Organization",
+    "name": "School of Architecture, Southeast University",
+    "url": "https://arch.seu.edu.cn/"
+  },
+  "sameAs": [
+    "https://github.com/wei-fng",
+    "https://archialgo.com/people/fengwei"
+  ]
+}
+  </script>
+
+  <style>
+    /* Homepage-specific styles */
+    .profile-section {
+      display: flex;
+      align-items: flex-start;
+      gap: 32px;
+      margin-bottom: 32px;
+    }
+
+    .profile-text {
+      flex: 1;
+    }
+
+    .profile-text .name {
+      font-size: 28px;
+      font-weight: 700;
+      color: #1a1a1a;
+      margin-bottom: 2px;
+    }
+
+    .profile-text .pronunciation {
+      font-size: 13px;
+      color: #9ca3af;
+      margin-bottom: 16px;
+    }
+
+    .profile-text .bio {
+      font-size: 16px;
+      color: #374151;
+      line-height: 1.7;
+      margin-bottom: 16px;
+    }
+
+    .profile-text .bio a {
+      font-size: inherit;
+    }
+
+    .profile-links a {
+      color: var(--primary-color);
+      text-decoration: none;
+    }
+
+    .profile-links a:hover {
+      color: var(--secondary-color);
+    }
+
+    .profile-photo {
+      flex-shrink: 0;
+      width: 160px;
+      height: 160px;
+      margin-top: 8px;
+      border: 1px solid #e5e7eb;
+    }
+
+    .homepage-section {
+      margin-bottom: 28px;
+    }
+
+    .homepage-section h2 {
+      font-size: 16px;
+      font-weight: 600;
+      color: #1a1a1a;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin-bottom: 12px;
+      padding-bottom: 4px;
+      border-bottom: 1px solid #e5e7eb;
+    }
+
+    .news-list {
+      list-style: none !important;
+      padding-left: 0 !important;
+      margin: 0 !important;
+    }
+
+    .news-list li {
+      display: flex;
+      color: #374151;
+      line-height: 1.6;
+      margin-bottom: 4px !important;
+    }
+
+    .news-date {
+      font-weight: 600;
+      color: #1a1a1a;
+      width: 120px;
+      flex-shrink: 0;
+    }
+
+    [data-theme="dark"] .news-list li {
+      color: var(--text-color);
+    }
+
+    [data-theme="dark"] .news-date {
+      color: var(--text-color);
+    }
+
+
+    .homepage-section #projects-list li {
+      margin-bottom: 8px !important;
+    }
+
+    .homepage-section .publication-list {
+      list-style: none !important;
+      padding-left: 0 !important;
+    }
+
+    .homepage-section .publication-list li {
+      margin-bottom: 6px !important;
+      padding-bottom: 0 !important;
+    }
+
+
+    .view-all {
+      display: inline-block;
+      margin-top: 8px;
+      font-size: 13px;
+      color: var(--primary-color);
+      text-decoration: none;
+    }
+
+    .view-all:hover {
+      color: var(--secondary-color);
+    }
+
+    /* Dark mode overrides */
+    [data-theme="dark"] .profile-text .name {
+      color: var(--text-color);
+    }
+
+    [data-theme="dark"] .profile-text .pronunciation {
+      color: #888;
+    }
+
+    [data-theme="dark"] .profile-text .bio {
+      color: var(--text-color);
+    }
+
+    [data-theme="dark"] .profile-photo {
+      border-color: #374151;
+    }
+
+    [data-theme="dark"] .homepage-section h2 {
+      color: var(--text-color);
+      border-bottom-color: #374151;
+    }
+
+    [data-theme="dark"] .homepage-section .papertitle {
+      color: var(--text-color);
+    }
+
+    [data-theme="dark"] .homepage-section .paper_rest {
+      color: #b8b8b8;
+    }
+
+    [data-theme="dark"] .homepage-section .paper-venue {
+      color: #888;
+    }
+
+    /* Mobile */
+    @media screen and (max-width: 768px) {
+      .profile-section {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 16px;
+      }
+
+      .profile-text .name {
+        text-align: center;
+      }
+
+      .profile-text .pronunciation {
+        text-align: center;
+      }
+
+      .profile-links {
+        text-align: center;
+      }
+
+      .profile-photo {
+        margin-top: 0;
+      }
+
+    }
+    
+    /* Homepage Featured Banner */
+
+    .home-banner {
+      margin: 20px 0 32px;
+    }
+
+    .home-banner[hidden],
+    .home-banner-slide[hidden],
+    .home-banner-controls[hidden],
+    #homepage-news[hidden] {
+      display: none !important;
+    }
+
+    .home-banner-slide {
+      display: block;
+      position: relative;
+      overflow: hidden;
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .home-banner-slide img {
+      display: block;
+      width: 100%;
+      aspect-ratio: 16 / 7;
+      object-fit: cover;
+    }
+
+    .home-banner-caption {
+      position: absolute;
+      inset: auto 0 0;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      padding: 36px 22px 18px;
+      background: linear-gradient(transparent, rgba(0,0,0,.68));
+      color: #fff;
+    }
+
+    .home-banner-caption strong {
+      font-size: 18px;
+      font-weight: 500;
+    }
+
+    .home-banner-caption span {
+      font-size: 12px;
+      opacity: .85;
+    }
+
+    .home-banner-controls {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 18px;
+      margin-top: 8px;
+      color: var(--text-color);
+      font-size: 12px;
+    }
+
+    .home-banner-controls button {
+      border: 0;
+      background: none;
+      color: inherit;
+      font-size: 24px;
+      cursor: pointer;
+    }
+
+    /* Three-column masonry news */
+
+    .home-news-grid {
+      columns: 3;
+      column-gap: 16px;
+    }
+
+    .home-news-card {
+      display: inline-block;
+      width: 100%;
+      box-sizing: border-box;
+      margin: 0 0 16px;
+      break-inside: avoid;
+      overflow: hidden;
+      border: 1px solid var(--border-color, #ddd);
+      border-radius: 8px;
+      color: var(--text-color);
+      text-decoration: none;
+    }
+
+    .home-news-card img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    .home-news-content {
+      padding: 12px;
+    }
+
+    .home-news-title {
+      font-size: 13px;
+      font-weight: 500;
+      line-height: 1.5;
+    }
+
+    .home-news-meta {
+      margin-top: 8px;
+      color: #999;
+      font-size: 11px;
+    }
+
+    .home-news-card:hover {
+      border-color: #aaa;
+    }
+
+    @media (max-width: 900px) {
+      .home-news-grid {
+        columns: 2;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .home-news-grid {
+        columns: 1;
+      }
+
+      .home-banner-slide img {
+        aspect-ratio: 4 / 3;
+      }
+
+      .home-banner-caption strong {
+        font-size: 15px;
+      }
+    }
+
+    /* Homepage banner and news visual refinements */
+
+    /* Banner */
+    .home-banner {
+      margin: 24px 0 36px;
+    }
+
+    .home-banner-slide {
+      display: block;
+      overflow: hidden;
+      border-radius: 4px;
+      text-decoration: none !important;
+    }
+
+    .home-banner-slide img {
+      display: block;
+      width: 100%;
+      height: auto;
+      aspect-ratio: auto;
+      object-fit: contain;
+      border-radius: 4px;
+    }
+
+    .home-banner-caption {
+      display: none !important;
+    }
+
+    .home-banner-controls {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 22px;
+      margin-top: 12px;
+      font-family: Poppins, sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+      color: #999;
+    }
+
+    .home-banner-controls button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 24px;
+      height: 28px;
+      padding: 0;
+      border: none;
+      background: transparent;
+      color: #999;
+      font-size: 24px;
+      font-weight: 300;
+      line-height: 1;
+      cursor: pointer;
+    }
+
+    .home-banner-controls button:hover {
+      color: var(--text-color);
+    }
+
+    /* News: three-column masonry layout */
+    .home-news-grid {
+      columns: 3;
+      column-gap: 16px;
+    }
+
+    .home-news-card {
+      display: inline-block;
+      width: 100%;
+      box-sizing: border-box;
+      margin: 0 0 16px;
+      break-inside: avoid;
+      overflow: hidden;
+      border: 1px solid var(--content-line, rgba(0,0,0,.09));
+      border-radius: 6px;
+      background: var(--bg-color, #fff);
+      color: var(--text-color);
+      text-decoration: none !important;
+      box-shadow: none;
+      transition: border-color .2s ease;
+    }
+
+    .home-news-card:hover {
+      border-color: rgba(120,120,120,.35);
+      box-shadow: none;
+    }
+
+    .home-news-card img {
+      display: block;
+      width: 100%;
+      height: auto;
+      margin: 0;
+      border: none;
+      border-radius: 0;
+    }
+
+    .home-news-content {
+      padding: 14px 16px 16px;
+    }
+
+    .home-news-title {
+      color: var(--text-color);
+      font-family: Poppins, sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 1.5;
+      overflow-wrap: break-word;
+    }
+
+    .home-news-meta {
+      margin-top: 6px;
+      color: #999;
+      font-family: Poppins, sans-serif;
+      font-size: 11px;
+      font-weight: 400;
+      line-height: 1.5;
+    }
+
+    /* Section headings */
+    #homepage-news h2 {
+      font-family: Poppins, sans-serif;
+      font-size: 16px;
+      font-weight: 500;
+      letter-spacing: .035em;
+      text-transform: uppercase;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border-color, #e5e7eb);
+    }
+
+    /* Preserve hidden states */
+    .home-banner[hidden],
+    .home-banner-slide[hidden],
+    .home-banner-controls[hidden],
+    #homepage-news[hidden] {
+      display: none !important;
+    }
+
+    /* Responsive layout */
+    @media (max-width: 900px) {
+      .home-news-grid {
+        columns: 2;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .home-news-grid {
+        columns: 1;
+        column-gap: 0;
+      }
+
+      .home-banner {
+        margin: 20px 0 28px;
+      }
+
+      .home-banner-slide img {
+        width: 100%;
+        height: auto;
+        aspect-ratio: auto;
+        object-fit: contain;
+      }
+
+      .home-news-title {
+        font-size: 13px;
+      }
+    }
+
+    /* Selected publications: clean academic list */
+
+    .homepage-section .publication-list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .homepage-section .publication-list li {
+      margin: 0 0 18px !important;
+      padding: 0 !important;
+      border: none;
+      background: transparent;
+      box-shadow: none;
+    }
+
+    .homepage-section .publication-list .papertitle {
+      color: var(--text-color);
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 1.5;
+      text-decoration: none;
+    }
+
+    .homepage-section .publication-list .papertitle:hover {
+      text-decoration: underline;
+    }
+
+    .homepage-section .publication-list .paper_rest {
+      margin-top: 3px;
+      color: var(--text-color);
+      font-size: 13px;
+      line-height: 1.5;
+    }
+
+    .homepage-section .publication-list .paper-venue {
+      margin-top: 2px;
+      color: #888;
+      font-size: 12px;
+      line-height: 1.5;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div id="site-nav"></div>
+
+  <main id="main-content" class="homepage page-shell">
+    <!-- Profile -->
+    
+  </div>
+
+    <!-- Selected Papers -->
+    <div class="homepage-section">
+      <h2>Selected Publications</h2>
+      <ul id="selected-papers-list" class="publication-list">
+        <!-- Populated by main.js -->
+      </ul>
+      <a href="publications.html" class="view-all">View all publications &rarr;</a>
+    </div>
+
+    <!-- Selected Projects -->
+    <div class="homepage-section">
+      <h2>Selected Projects</h2>
+      <ul id="projects-list">
+        <!-- Populated by main.js -->
+      </ul>
+      <a href="projects.html" class="view-all">View all projects &rarr;</a>
+    </div>
+
+    <!-- Recent News -->
+    <section id="homepage-news" class="homepage-section" hidden>
+      <h2>Recent Updates</h2>
+      <div id="home-news-grid" class="home-news-grid"></div>
+    </section>
+
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="site-shell.js"></script>
+  <script src="utils.js"></script>
+  <script src="data.js"></script>
+  <script src="main.js"></script>
+  <script src="content-index.js"></script>
+  <script src="home-selected.js"></script>
+  <script src="home-feed.js"></script>
+</body>
+
+</html>

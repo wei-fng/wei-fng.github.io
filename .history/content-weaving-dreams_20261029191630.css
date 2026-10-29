@@ -1,0 +1,255 @@
+/* Weaving Dreams project-only presentation styles. */
+/* WeChat article card */
+.wf-wechat-msg {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0 24px;
+  padding: 20px 24px;
+  border: 1px solid #dedede;
+  border-radius: 10px;
+  background: transparent;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.wf-wechat-msg:hover {
+  border-color: #aaa;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+}
+
+.wf-wechat-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  border-radius: inherit;
+  cursor: pointer;
+}
+
+.wf-wechat-overlay:focus-visible {
+  outline: 2px solid #7668a8;
+  outline-offset: 3px;
+}
+
+.wf-wechat-msg-title {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.6;
+  margin-bottom: 8px;
+}
+
+.wf-wechat-msg-desc {
+  font-size: 13px;
+  color: #888;
+  line-height: 1.6;
+  margin-bottom: 14px;
+}
+
+.wf-wechat-msg-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding-top: 12px;
+  border-top: 1px solid #eee;
+  font-size: 12px;
+}
+
+.wf-wechat-msg-source {
+  color: #999;
+}
+
+.wf-wechat-msg-action {
+  color: #7668a8;
+  white-space: nowrap;
+}
+
+
+/* Outcomes: central artwork and two subdued previews */
+.df-coverflow {
+  width: 100%;
+  margin: 6px 0 14px;
+}
+
+.df-coverflow-stage {
+  position: relative;
+  width: 100%;
+  min-height: 0;
+  height: auto;
+  overflow: hidden;
+}
+
+.df-slide {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  width: 74%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  box-sizing: border-box;
+  transition: transform 0.55s ease, opacity 0.55s ease;
+}
+
+.df-slide img {
+  display: block;
+  width: 100% !important;
+  height: auto !important;
+  max-height: none !important;
+
+  padding: 20px 0 !important;
+  box-sizing: border-box !important;
+  background: #fff;
+
+  object-fit: contain;
+  margin: 0 !important;
+  border-radius: 5px;
+}
+
+.df-slide.is-center {
+  z-index: 3;
+  opacity: 1;
+  transform: translate(-50%, -50%);
+  cursor: default;
+}
+.df-slide.is-center img { box-shadow: 0 5px 20px rgba(0,0,0,.08); }
+.df-slide.is-left {
+  z-index: 1;
+  opacity: .13;
+  transform: translate(calc(-50% - 43%), -50%) scale(.72);
+}
+.df-slide.is-right {
+  z-index: 1;
+  opacity: .13;
+  transform: translate(calc(-50% + 43%), -50%) scale(.72);
+}
+.df-slide.is-left:hover,
+.df-slide.is-right:hover { opacity: .32; }
+.df-slide:focus-visible,
+.df-coverflow-controls button:focus-visible {
+  outline: 2px solid #7668a8;
+  outline-offset: 3px;
+}
+.df-coverflow-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  margin: 0 0 3px;
+}
+.df-coverflow-controls button {
+  padding: 0 8px;
+  border: 0;
+  background: transparent;
+  color: #777;
+  font-size: 27px;
+  line-height: 1.25;
+  cursor: pointer;
+}
+.df-coverflow-controls button:hover { color: #222; }
+.df-current-label {
+  min-width: 64px;
+  color: #999;
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: .08em;
+}
+.df-group-info {
+  margin: 0 auto;
+  max-width: 930px;
+  text-align: center;
+}
+.df-group-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 10px;
+  row-gap: 2px;
+  line-height: 1.35;
+}
+.df-group-number {
+  font-size: 11px;
+  letter-spacing: .09em;
+  color: #999;
+}
+.df-group-divider { color: #bbb; }
+.df-group-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+.df-group-members {
+  margin-top: 3px;
+  color: #888;
+  font-size: 12px;
+  line-height: 1.5;
+}
+@media (max-width: 600px) {
+  .df-slide { width: 90%; }
+  .df-slide.is-left {
+    transform: translate(calc(-50% - 40%), -50%) scale(.73);
+  }
+  .df-slide.is-right {
+    transform: translate(calc(-50% + 40%), -50%) scale(.73);
+  }
+  .df-group-title { font-size: 14px; }
+  .df-group-members { font-size: 11px; }
+  .wf-wechat-msg { padding: 15px 16px; }
+  .wf-wechat-msg-footer { flex-wrap: wrap; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .df-slide, .df-coverflow-stage { transition: none; }
+}
+
+[data-theme="dark"] .df-slide img { background: #252525; }
+[data-theme="dark"] .df-group-title { color: var(--text-color); }
+[data-theme="dark"] .df-coverflow-controls button:hover { color: var(--text-color); }
+[data-theme="dark"] .wf-wechat-msg { border-color: var(--border-color); }
+[data-theme="dark"] .wf-wechat-msg-footer { border-color: var(--border-color); }
+
+
+/* Shared coverflow: no blue focus frame after pointer clicks.
+   Keyboard users retain a subtle, neutral focus indication. */
+.df-coverflow button:focus { outline: none !important; box-shadow: none !important; }
+.df-coverflow button:focus-visible { outline: 1px solid #999 !important; outline-offset: 2px; }
+/* Drawings are landscape sheets; keep a reasonable presentation height. */
+.df-coverflow[data-gallery="drawings"] .df-slide img {
+  max-height: 540px !important;
+  object-fit: contain;
+}
+
+
+/* Coverflow: hide slides outside the three visible positions */
+
+.df-coverflow .df-slide {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.df-coverflow .df-slide.is-center {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.df-coverflow .df-slide.is-left,
+.df-coverflow .df-slide.is-right {
+  opacity: 0.13;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.df-coverflow .df-slide.is-left:hover,
+.df-coverflow .df-slide.is-right:hover {
+  opacity: 0.32;
+}
+/* Hide drawing number and divider, keep caption */
+.df-coverflow[data-gallery="drawings"] .df-group-number,
+.df-coverflow[data-gallery="drawings"] .df-group-divider {
+  display: none;
+}

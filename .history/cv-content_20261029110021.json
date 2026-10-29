@@ -1,0 +1,327 @@
+[
+  {
+    "kind": "text",
+    "en": "WEI FENG",
+    "zh": "冯薇"
+  },
+  {
+    "kind": "text",
+    "en": "Ph.D. Student in Architecture  |  AI for Built Heritage",
+    "zh": "建筑学博士研究生 | 面向建成遗产的人工智能"
+  },
+  {
+    "kind": "text",
+    "en": "Laboratory of Architectural Algorithms & Applications (Lab AAA), School of Architecture, Southeast University\nEmail: wei.feng@seu.edu.cn   |   Tel: (+86)18851667823",
+    "zh": "东南大学建筑学院 建筑运算与应用实验室（Lab AAA）\n邮箱：wei.feng@seu.edu.cn | 电话：(+86)18851667823"
+  },
+  {
+    "kind": "heading",
+    "en": "RESEARCH FOCUS",
+    "zh": "研究方向"
+  },
+  {
+    "kind": "text",
+    "en": "Her research explores AI approaches to understanding built heritage, particularly through graph learning and temporal knowledge representation to investigate the spatio-temporal organization and transformation of historic built environments.",
+    "zh": "研究聚焦人工智能驱动的建成遗产研究，主要通过图深度学习与时序知识表征等方法，探索历史建成环境的时空组织与演变。"
+  },
+  {
+    "kind": "heading",
+    "en": "EDUCATION",
+    "zh": "教育经历"
+  },
+  {
+    "kind": "date",
+    "en": "2024/09–Present, Southeast University, School of Architecture, Ph.D. Student",
+    "zh": "2024/09-至今，东南大学，建筑学院，博士研究生"
+  },
+  {
+    "kind": "text",
+    "en": "2024/02–2024/06, Politecnico di Torino, Department of Architecture and Design, Exchange student",
+    "zh": "2024/02–2024/06，意大利都灵理工大学，建筑与设计学院，交换"
+  },
+  {
+    "kind": "text",
+    "en": "2019/08–2024/06, Southeast University, School of Architecture, Bachelor of Architecture",
+    "zh": "2019/08–2024/06，东南大学，建筑学院，建筑学学士"
+  },
+  {
+    "kind": "text",
+    "en": "•  Competitively selected for the university-wide “Zhishan Excellence” Direct-entry Ph.D. Program (2024)",
+    "zh": "• 2024年入选校级“至善卓越”直博生计划。"
+  },
+  {
+    "kind": "date",
+    "en": "Bachelor of Architecture | Sep 2019 – Jun 2024",
+    "zh": "建筑学学士 | 2019年9月—2024年6月"
+  },
+  {
+    "kind": "text",
+    "en": "Southeast University, School of Architecture",
+    "zh": "东南大学建筑学院"
+  },
+  {
+    "kind": "text",
+    "en": "•  Undergraduate GPA: 3.98 / 4.8; Ranking: 4 / 87 (TOP 5%)",
+    "zh": "• 本科绩点：3.98 / 4.8；排名：4 / 87（前5%）。"
+  },
+  {
+    "kind": "date",
+    "en": "Engineering Undergraduate Foundation Program | Sep 2018 – Sep 2019",
+    "zh": "工科本科基础培养 | 2018年9月—2019年9月"
+  },
+  {
+    "kind": "text",
+    "en": "Chien-Shiung Wu College, Southeast University",
+    "zh": "东南大学吴健雄学院"
+  },
+  {
+    "kind": "text",
+    "en": "•  Undergraduate GPA: 4.16 / 4.8; ranking: 2 / 142 (TOP 1.5%)",
+    "zh": "• 本科绩点：4.16 / 4.8；排名：2 / 142（前1.5%）。"
+  },
+  {
+    "kind": "heading",
+    "en": "RESEARCH EXPERIENCE",
+    "zh": "研究经历"
+  },
+  {
+    "kind": "entry",
+    "en": "Nationwide Spatiotemporal Graph Study of Chinese Traditional Villages",
+    "zh": "中国传统村落全国尺度时空图研究"
+  },
+  {
+    "kind": "text",
+    "en": "Southeast University  |  Ongoing research",
+    "zh": "东南大学 | 在研"
+  },
+  {
+    "kind": "text",
+    "en": "•  Contributed to a nationwide research dataset covering 8,155 traditional villages, integrating building footprints, roads and multi-temporal remote-sensing evidence (2015, 2020 and 2025).",
+    "zh": "• 参与构建覆盖8,155个传统村落的全国性研究数据集，整合建筑轮廓、道路与2015、2020、2025年多时相遥感证据。"
+  },
+  {
+    "kind": "text",
+    "en": "•  Modelled building–road configurations as heterogeneous graphs; applied a Siamese relational GNN (R-GCN) with 256-dimensional village embeddings to learn pairwise similarities concerning geographical, cultural and industrial contexts.",
+    "zh": "• 将建筑与道路构型表示为异构图；采用孪生关系图神经网络（R-GCN）与256维村落嵌入，学习地理、文化与产业语境下的成对相似性。"
+  },
+  {
+    "kind": "text",
+    "en": "•  Compared hand-crafted form/typology descriptors with learned graph representations to examine when visible morphological resemblance agrees or diverges from relational similarity.",
+    "zh": "• 比较人工构建的形态与类型描述指标和学习得到的图表示，分析可见形态相似性与关系相似性的一致与分歧。"
+  },
+  {
+    "kind": "text",
+    "en": "•  Historical observations are retrospective for spatial features observable in 2025; they do not constitute complete inventories of features that disappeared earlier.",
+    "zh": "• 历史观测是对2025年可观测空间要素的回溯，不构成对早期已消失要素的完整清单。"
+  },
+  {
+    "kind": "entry",
+    "en": "Historic Urban Landscape: Spatiotemporal Mapping and Decision Support",
+    "zh": "历史性城镇景观时空图谱与决策支持"
+  },
+  {
+    "kind": "text",
+    "en": "Southeast University Tongxin Urban Renewal Education Fund  |  Research team, 2026–2027",
+    "zh": "东南大学同心城市更新教育基金 | 研究团队，2026—2027"
+  },
+  {
+    "kind": "text",
+    "en": "•  Research project concerned with multi-source spatiotemporal evolution mapping and knowledge-informed evidence for conservation and urban renewal.",
+    "zh": "• 研究多源时空演变图谱，以及用于保护与城市更新的知识引导证据。"
+  },
+  {
+    "kind": "entry",
+    "en": "Behaviour-oriented Urban Form Optimization",
+    "zh": "行为导向的城市形态优化"
+  },
+  {
+    "kind": "text",
+    "en": "Research reported at ISUF 2025",
+    "zh": "研究成果发表于ISUF 2025"
+  },
+  {
+    "kind": "text",
+    "en": "•  Co-authored a study of operations-research-based spatial optimization for mixed-use residential communities, combining geometrical constraints and relational spatial configuration.",
+    "zh": "• 合作研究基于运筹算法的混合居住社区空间优化，结合几何约束与关系空间构型。"
+  },
+  {
+    "kind": "heading",
+    "en": "RESEARCH PROJECTS",
+    "zh": "科研项目"
+  },
+  {
+    "kind": "entry",
+    "en": "Multi-source Spatiotemporal Evolution Mapping and Intelligent Decision-Making for Historic Urban Landscapes",
+    "zh": "历史性城镇景观多源时空演变图谱与智能决策研究"
+  },
+  {
+    "kind": "text",
+    "en": "Principal Investigator | Southeast University Tongxin Urban Renewal Education Fund | Jan 2026 – Dec 2027 (ongoing)",
+    "zh": "项目负责人 | 东南大学同心城市更新教育基金 | 2026年1月—2027年12月（在研）"
+  },
+  {
+    "kind": "entry",
+    "en": "A Data-driven Approach to the Multi-scale Hierarchical Conservation and Renewal Method of Historic Area",
+    "zh": "数据驱动的历史地段多尺度层级保护更新方法研究"
+  },
+  {
+    "kind": "text",
+    "en": "Research participant | National Natural Science Foundation of China, General Program | Grant No. 52178008 | Jan 2022 – Dec 2025",
+    "zh": "研究参与者 | 国家自然科学基金面上项目 | 项目编号52178008 | 2022年1月—2025年12月"
+  },
+  {
+    "kind": "entry",
+    "en": "Child-Friendliness Assessment Model and Optimization Strategies for High-Density Urban Blocks",
+    "zh": "高密度城市街区儿童友好性评价模型与优化策略"
+  },
+  {
+    "kind": "text",
+    "en": "Research participant | Jiangsu Provincial Undergraduate Innovation Training Program | Jan 2021 – Dec 2022",
+    "zh": "研究参与者 | 江苏省大学生创新训练计划 | 2021年1月—2022年12月"
+  },
+  {
+    "kind": "heading",
+    "en": "CONFERENCE PAPERS AND ACADEMIC PRESENTATIONS",
+    "zh": "会议论文与学术报告"
+  },
+  {
+    "kind": "text",
+    "en": "Oct 2026 “Identifying Relational Similarities in Living Historic Settlements: A Spatio-Temporal Graph Study of 8,155 Chinese Traditional Villages.” ICOMOS General Assembly (ICOMOS GA 2026).",
+    "zh": "2026年10月 “Identifying Relational Similarities in Living Historic Settlements: A Spatio-Temporal Graph Study of 8,155 Chinese Traditional Villages.” ICOMOS大会（ICOMOS GA 2026）。"
+  },
+  {
+    "kind": "text",
+    "en": "Jun 2025 “Behavior-oriented Urban Spatial Form Optimization Driven by Operations Research Algorithms: A Case Study of a Mixed-Use Residential Community in Nanjing.” International Seminar on Urban Form (ISUF 2025), oral presentation, Italy.",
+    "zh": "2025年6月 “Behavior-oriented Urban Spatial Form Optimization Driven by Operations Research Algorithms: A Case Study of a Mixed-Use Residential Community in Nanjing.” 国际城市形态研讨会（ISUF 2025），口头报告，意大利。"
+  },
+  {
+    "kind": "text",
+    "en": "Oct 2026 “From Morphology to Relations: A Spatio-Temporal Graph Study of 8,155 Chinese Traditional Villages.” Invited research seminar, Knowledge Modelling for Built Heritage & Conservation, NUS Architecture, Singapore (23 October).",
+    "zh": "2026年10月 “From Morphology to Relations: A Spatio-Temporal Graph Study of 8,155 Chinese Traditional Villages.” 新加坡国立大学建筑系，Knowledge Modelling for Built Heritage & Conservation，受邀研究报告，10月23日。"
+  },
+  {
+    "kind": "heading",
+    "en": "ACADEMIC ACTIVITIES",
+    "zh": "学术活动"
+  },
+  {
+    "kind": "text",
+    "en": "Jun 2026  Teaching Assistant, DigitalFUTURES 2026 Summer Workshop  |  “Dream Weaving: Knowledge Decoding and AI Reconstruction of Historic Districts”",
+    "zh": "2026年6月 DigitalFUTURES 2026暑期工作营助教 | “Dream Weaving: Knowledge Decoding and AI Reconstruction of Historic Districts”"
+  },
+  {
+    "kind": "text",
+    "en": "Feb-July 2024  Academic Exchange in Architecture |  Politecnico di Torino, Italy",
+    "zh": "2024年2—7月 建筑学学术交流 | 意大利都灵理工大学"
+  },
+  {
+    "kind": "text",
+    "en": "•  Coursework: Urbanism; Construction History; Energy-conscious Design of Post-carbon Buildings.",
+    "zh": "• 课程：城市规划；建造历史；后碳建筑的节能设计。"
+  },
+  {
+    "kind": "heading",
+    "en": "SELECTED SCHOLARSHIPS, AWARDS AND HONORS",
+    "zh": "奖学金 奖励与荣誉"
+  },
+  {
+    "kind": "text",
+    "en": "2025  Second-class Graduate Academic Scholarship  |  Southeast University",
+    "zh": "2025年 研究生学业奖学金二等奖 | 东南大学"
+  },
+  {
+    "kind": "text",
+    "en": "2024  Zhishan Excellence Scholarship for Direct-entry Ph.D. Students  |  Southeast University",
+    "zh": "2024年 直博生至善卓越奖学金 | 东南大学"
+  },
+  {
+    "kind": "text",
+    "en": "2022  National Scholarship for Undergraduate Students  |  China",
+    "zh": "2022年 本科生国家奖学金 | 中国"
+  },
+  {
+    "kind": "text",
+    "en": "2022  Cheng Taining Award Fund  |  Architectural Design and Theory Research Center, Southeast University",
+    "zh": "2022年 程泰宁奖励基金 | 东南大学建筑设计与理论研究中心"
+  },
+  {
+    "kind": "text",
+    "en": "2019 & 2020  Cyrus Tang Scholarship  |  Southeast University",
+    "zh": "2019、2020年 唐仲英奖学金 | 东南大学"
+  },
+  {
+    "kind": "text",
+    "en": "2019  Outstanding Student (Three-Good Student)  |  Southeast University",
+    "zh": "2019年 三好学生 | 东南大学"
+  },
+  {
+    "kind": "heading",
+    "en": "RESEARCH METHODS AND TECHNICAL EXPERIENCE",
+    "zh": "研究方法与技术经验"
+  },
+  {
+    "kind": "text",
+    "en": "Heterogeneous graph construction; relational graph neural networks (R-GCN); Siamese similarity learning; learned graph embeddings; pairwise evaluation; comparative spatial-morphology descriptors; building and road extraction from satellite imagery; multi-temporal spatial analysis.",
+    "zh": "异构图构建；关系图神经网络（R-GCN）；孪生相似性学习；图嵌入学习；成对评估；空间形态描述指标比较；卫星影像建筑与道路提取；多时相空间分析。"
+  },
+  {
+    "kind": "heading",
+    "en": "LANGUAGES",
+    "zh": "语言能力"
+  },
+  {
+    "kind": "text",
+    "en": "English qualifications: CET-6: 676 / 710; CET-4: 599 / 710.",
+    "zh": "英语：大学英语六级676 / 710；大学英语四级599 / 710。"
+  },
+  {
+    "kind": "heading",
+    "en": "SELECTED PUBLICATIONS",
+    "zh": "代表性论文"
+  },
+  {
+    "kind": "blank",
+    "en": "",
+    "zh": ""
+  },
+  {
+    "kind": "heading",
+    "en": "INTELLECTUAL PROPERTY",
+    "zh": "知识产权"
+  },
+  {
+    "kind": "blank",
+    "en": "",
+    "zh": ""
+  },
+  {
+    "kind": "heading",
+    "en": "SELECTED DESIGN AND DEVELOPMENT PROJECTS",
+    "zh": "代表性设计与开发项目"
+  },
+  {
+    "kind": "blank",
+    "en": "",
+    "zh": ""
+  },
+  {
+    "kind": "heading",
+    "en": "TEACHING EXPERIENCE",
+    "zh": "教学经历"
+  },
+  {
+    "kind": "text",
+    "en": "Jun 2026  Teaching Assistant, DigitalFUTURES 2026 Summer Workshop | “Dream Weaving: Knowledge Decoding and AI Reconstruction of Historic Districts”",
+    "zh": "2026年6月 DigitalFUTURES 2026暑期工作营助教 | “Dream Weaving: Knowledge Decoding and AI Reconstruction of Historic Districts”"
+  },
+  {
+    "kind": "heading",
+    "en": "ACADEMIC SERVICES",
+    "zh": "学术服务"
+  },
+  {
+    "kind": "blank",
+    "en": "",
+    "zh": ""
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "kind": "text",
+    "en": "WEI FENG",
+    "zh": "冯薇"
+  },
+  {
+    "kind": "text",
+    "en": "Ph.D. Student in Architecture  |  AI for Built Heritage",
+    "zh": "建筑学博士研究生 | 面向建成遗产的人工智能"
+  },
+  {
+    "kind": "text",
+    "en": "Laboratory of Architectural Algorithms & Applications (Lab AAA), School of Architecture, Southeast University\nEmail: wei.feng@seu.edu.cn   |   Tel: (+86)18851667823",
+    "zh": "东南大学建筑学院 建筑运算与应用实验室（Lab AAA）\n邮箱：wei.feng@seu.edu.cn | 电话：(+86)18851667823"
+  },
+  {
+    "kind": "heading",
+    "en": "RESEARCH FOCUS",
+    "zh": "研究方向"
+  },
+  {
+    "kind": "text",
+    "en": "Her research explores AI approaches to understanding built heritage, particularly through graph learning and temporal knowledge representation to investigate the spatio-temporal organization and transformation of historic built environments.",
+    "zh": "研究聚焦人工智能驱动的建成遗产研究，主要通过图深度学习与时序知识表征等方法，探索历史建成环境的时空组织与演变。"
+  },
+  {
+    "kind": "heading",
+    "en": "EDUCATION",
+    "zh": "教育经历"
+  },
+  {
+    "kind": "date",
+    "en": "2024/09–Present, Southeast University, School of Architecture, Ph.D. Student",
+    "zh": "2024/09-至今，东南大学，建筑学院，博士研究生"
+  },
+  {
+    "kind": "text",
+    "en": "2024/02–2024/06, Politecnico di Torino, Department of Architecture and Design, Exchange student",
+    "zh": "2024/02–2024/06，意大利都灵理工大学，建筑与设计学院，交换"
+  },
+  {
+    "kind": "text",
+    "en": "2019/08–2024/06, Southeast University, School of Architecture, Bachelor of Architecture",
+    "zh": "2019/08–2024/06，东南大学，建筑学院，建筑学学士"
+  },
+  {
+    "kind": "text",
+    "en": "2018/09–2019/08, Southeast University, Chien-Shiung Wu College, Engineering Experimental Class",
+    "zh": "2018/09–2019/08，东南大学，吴健雄学院，工科试验班"
+  },
+  {
+    "kind": "heading",
+    "en": "RESEARCH EXPERIENCE",
+    "zh": "研究经历"
+  },
+  {
+    "kind": "text",
+    "en": "Multi-source Spatiotemporal Evolution Mapping and Intelligent Decision-Making for Historic Urban Landscapes,Tongxin Urban Renewal Education Fund, Southeast University, 2026/01–2027/12, Ongoing, PI",
+    "zh": "东南大学同心城市更新教育基金，面向历史性城市景观的多源时空演化图谱建构与智能决策方法研究，2026/01–2027/12，在研，主持"
+  },
+  {
+    "kind": "heading",
+    "en": "CONFERENCE PAPERS AND ACADEMIC PRESENTATIONS",
+    "zh": "会议论文与学术报告"
+  },
+  {
+    "kind": "text",
+    "en": "Oct 2026 “Identifying Relational Similarities in Living Historic Settlements: A Spatio-Temporal Graph Study of 8,155 Chinese Traditional Villages.” ICOMOS General Assembly (ICOMOS GA 2026).",
+    "zh": "2026年10月 “Identifying Relational Similarities in Living Historic Settlements: A Spatio-Temporal Graph Study of 8,155 Chinese Traditional Villages.” ICOMOS大会（ICOMOS GA 2026）。"
+  },
+  {
+    "kind": "text",
+    "en": "Jun 2025 “Behavior-oriented Urban Spatial Form Optimization Driven by Operations Research Algorithms: A Case Study of a Mixed-Use Residential Community in Nanjing.” International Seminar on Urban Form (ISUF 2025), oral presentation, Italy.",
+    "zh": "2025年6月 “Behavior-oriented Urban Spatial Form Optimization Driven by Operations Research Algorithms: A Case Study of a Mixed-Use Residential Community in Nanjing.” 国际城市形态研讨会（ISUF 2025），口头报告，意大利。"
+  },
+  {
+    "kind": "text",
+    "en": "Oct 2026 “From Morphology to Relations: A Spatio-Temporal Graph Study of 8,155 Chinese Traditional Villages.” Invited research seminar, Knowledge Modelling for Built Heritage & Conservation, NUS Architecture, Singapore (23 October).",
+    "zh": "2026年10月 “From Morphology to Relations: A Spatio-Temporal Graph Study of 8,155 Chinese Traditional Villages.” 新加坡国立大学建筑系，Knowledge Modelling for Built Heritage & Conservation，受邀研究报告，10月23日。"
+  },
+  {
+    "kind": "heading",
+    "en": "ACADEMIC ACTIVITIES",
+    "zh": "学术活动"
+  },
+  {
+    "kind": "text",
+    "en": "Jun 2026  Teaching Assistant, DigitalFUTURES 2026 Summer Workshop  |  “Dream Weaving: Knowledge Decoding and AI Reconstruction of Historic Districts”",
+    "zh": "2026年6月 DigitalFUTURES 2026暑期工作营助教 | “Dream Weaving: Knowledge Decoding and AI Reconstruction of Historic Districts”"
+  },
+  {
+    "kind": "heading",
+    "en": "SELECTED SCHOLARSHIPS, AWARDS AND HONORS",
+    "zh": "奖学金 奖励与荣誉"
+  },
+  {
+    "kind": "text",
+    "en": "2024  Zhishan Excellence Scholarship for Direct-entry Ph.D. Students  |  Southeast University",
+    "zh": "2024年 直博生至善优选专项奖学金 | 东南大学"
+  },
+  {
+    "kind": "text",
+    "en": "2022  National Scholarship for Undergraduate Students  |  China",
+    "zh": "2022年 本科生国家奖学金 | 中国"
+  },
+  {
+    "kind": "text",
+    "en": "2022  Cheng Taining Award Fund  |  Architectural Design and Theory Research Center, Southeast University",
+    "zh": "2022年 程泰宁奖励基金 | 东南大学建筑设计与理论研究中心"
+  },
+  {
+    "kind": "text",
+    "en": "2019 & 2020  Cyrus Tang Scholarship  |  Southeast University",
+    "zh": "2019、2020年 唐仲英德育奖学金 | 东南大学"
+  },
+  {
+    "kind": "text",
+    "en": "2019  Outstanding Student (Three-Good Student)  |  Southeast University",
+    "zh": "2019年 三好学生 | 东南大学"
+  },
+  {
+    "kind": "heading",
+    "en": "LANGUAGES",
+    "zh": "语言能力"
+  },
+  {
+    "kind": "text",
+    "en": "English qualifications: CET-6: 676 / 710; CET-4: 599 / 710.",
+    "zh": "英语：大学英语六级676 / 710；大学英语四级599 / 710。"
+  },
+  {
+    "kind": "heading",
+    "en": "SELECTED PUBLICATIONS",
+    "zh": "代表性论文"
+  },
+  {
+    "kind": "blank",
+    "en": "",
+    "zh": ""
+  },
+  {
+    "kind": "heading",
+    "en": "INTELLECTUAL PROPERTY",
+    "zh": "知识产权"
+  },
+  {
+    "kind": "blank",
+    "en": "",
+    "zh": ""
+  },
+  {
+    "kind": "heading",
+    "en": "SELECTED DESIGN AND DEVELOPMENT PROJECTS",
+    "zh": "代表性设计与开发项目"
+  },
+  {
+    "kind": "blank",
+    "en": "",
+    "zh": ""
+  },
+  {
+    "kind": "heading",
+    "en": "TEACHING EXPERIENCE",
+    "zh": "教学经历"
+  },
+  {
+    "kind": "text",
+    "en": "Jun 2026  Teaching Assistant, DigitalFUTURES 2026 Summer Workshop | “Dream Weaving: Knowledge Decoding and AI Reconstruction of Historic Districts”",
+    "zh": "2026年6月 DigitalFUTURES 2026暑期工作营助教 | “Dream Weaving: Knowledge Decoding and AI Reconstruction of Historic Districts”"
+  },
+  {
+    "kind": "heading",
+    "en": "ACADEMIC SERVICES",
+    "zh": "学术服务"
+  },
+  {
+    "kind": "blank",
+    "en": "",
+    "zh": ""
+  }
+]

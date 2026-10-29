@@ -4,3 +4,4 @@ store/
 *.log
 *.zip
 test.html
+tmp/

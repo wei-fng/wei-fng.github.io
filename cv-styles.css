@@ -1,0 +1,114 @@
+.cv-controls{display:flex;justify-content:space-between;align-items:center;margin:0 0 24px;gap:16px}.cv-toolbar{display:inline-flex;border:1px solid #d9dfe3;border-radius:5px;padding:3px}.cv-toolbar button{font:inherit;font-size:13px;border:0;border-radius:3px;background:transparent;color:var(--primary-color);padding:7px 16px;cursor:pointer}.cv-toolbar button[aria-pressed="true"]{background:#1f668a;color:white}.cv-downloads{display:flex;gap:8px}.cv-downloads a{border:1px solid #d9dfe3;border-radius:4px;padding:7px 16px;font-size:13px;color:var(--primary-color)}#cv-profile{background:var(--bg-color);padding:42px 48px;box-shadow:0 3px 24px #00000009;border:1px solid #e8ebee;font-size:13px;line-height:1.55}.about-page #cv-profile h1{font-size:28px;letter-spacing:1px;margin:0 0 5px}.about-page #cv-profile h2{font-size:14px;letter-spacing:.04em;color:#1f435b;border-bottom:1px solid #ccd5dd;padding-bottom:5px;margin:24px 0 9px}.about-page #cv-profile p{margin:0 0 7px!important;font-size:13px;line-height:1.6}.cv-entry,.cv-date{font-weight:600}.cv-date{color:#1f435b}.cv-empty{min-height:35px}[data-theme="dark"] #cv-profile h2,[data-theme="dark"] #cv-profile .cv-date{color:#a6c4d9}@media(max-width:600px){#cv-profile{padding:24px 20px}.cv-downloads a{padding:7px 12px}}@media print{.cv-controls,#site-nav,#site-footer{display:none}#cv-profile{box-shadow:none;border:0;padding:0}}
+
+
+
+/* CV information hierarchy */
+
+#cv-profile {
+  display: grid;
+  grid-template-columns: 115px minmax(0, 1fr);
+  column-gap: 24px;
+  row-gap: 0;
+  align-items: start;
+}
+
+/* Full-width elements */
+#cv-profile > h1,
+#cv-profile > h2,
+#cv-profile > .cv-text {
+  grid-column: 1 / -1;
+}
+
+/* Section heading */
+.about-page #cv-profile h2 {
+  margin: 22px 0 12px;
+}
+
+/* Date: left column */
+.about-page #cv-profile > .cv-date {
+  grid-column: 1;
+  margin: 2px 0 0 !important;
+  color: #657584;
+  font-size: 12px;
+  font-weight: 400;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Main entry: right column */
+.about-page #cv-profile > .cv-entry {
+  grid-column: 2;
+  margin: 0 0 3px !important;
+  color: #1b1b1b;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+/* Subtitle: right column */
+.about-page #cv-profile > .cv-sub {
+  grid-column: 2;
+  margin: 0 0 14px !important;
+  color: #84919b;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+/* Supporting text immediately after an entry */
+.about-page #cv-profile > .cv-entry + .cv-text {
+  grid-column: 2;
+  margin: 0 0 14px !important;
+  color: #84919b;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+/* Entries without a subtitle */
+.about-page #cv-profile > .cv-entry:has(+ .cv-date),
+.about-page #cv-profile > .cv-entry:has(+ h2) {
+  margin-bottom: 14px !important;
+}
+
+
+/* Dark mode: CV information hierarchy */
+
+/* Main entry text */
+[data-theme="dark"] .about-page #cv-profile > .cv-entry {
+  color: var(--text-color, #e5e5e5);
+}
+
+/* Dates, subtitles and supporting text */
+[data-theme="dark"] .about-page #cv-profile > .cv-date,
+[data-theme="dark"] .about-page #cv-profile > .cv-sub,
+[data-theme="dark"] .about-page #cv-profile > .cv-entry + .cv-text {
+  color: #a9b4bf;
+}
+/* Dark mode: bold text in CV */
+[data-theme="dark"] #cv-profile strong,
+[data-theme="dark"] #cv-profile b,
+[data-theme="dark"] #cv-profile .cv-entry {
+  color: var(--text-color, #e5e5e5) !important;
+}
+
+/* Responsive layout */
+@media (max-width: 760px) {
+  #cv-profile {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .about-page #cv-profile > .cv-date,
+  .about-page #cv-profile > .cv-entry,
+  .about-page #cv-profile > .cv-sub,
+  .about-page #cv-profile > .cv-entry + .cv-text {
+    grid-column: 1;
+  }
+
+  .about-page #cv-profile > .cv-date {
+    margin-bottom: 3px !important;
+  }
+
+  .about-page #cv-profile > .cv-entry {
+    margin-bottom: 3px !important;
+  }
+}

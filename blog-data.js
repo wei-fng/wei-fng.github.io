@@ -4,20 +4,7 @@
  * external markdown file via `markdownFile` (which is fetched at runtime).
  */
 
-const blogPosts = [
-  {
-    id: "sample-post",
-    title: "Sample Blog Post",
-    date: "2025-01-01",
-    author: "Your Name",
-    excerpt: "A short, one-sentence excerpt that previews this post on the blogs page.",
-    tags: ["Topic", "Sample"],
-    readTime: 3,
-    markdownFile: "blogs/sample-post.md",
-    content: null,      // Will be loaded from the markdown file
-    htmlContent: null   // Will be generated from the markdown
-  }
-];
+const blogPosts = [];
 
 // Helper function to get all blog posts (sorted newest first)
 function getAllBlogPosts() {

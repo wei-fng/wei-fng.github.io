@@ -38,6 +38,11 @@ document.addEventListener('DOMContentLoaded', function() {
   populateTalks();
   populateHonors();
 
+  document.querySelectorAll('.homepage-section, .about-section').forEach(section => {
+    const list = section.querySelector('ul');
+    if (list && list.children.length === 0) section.hidden = true;
+  });
+
   // Initialize dark mode toggle
   initializeDarkMode();
 
