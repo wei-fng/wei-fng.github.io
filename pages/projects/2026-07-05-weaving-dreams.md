@@ -24,8 +24,9 @@ remote_project: false
       <span>JOINT WORKSHOP / 联合工作营</span>
       <p>
         <strong>Southeast University × National University of Singapore</strong>
+        <br>
+        东南大学建筑学院 × 新加坡国立大学
       </p>
-      <p>东南大学建筑学院 × 新加坡国立大学</p>
     </div>
     <div>
       <span>INSTRUCTORS / 指导教师</span>
