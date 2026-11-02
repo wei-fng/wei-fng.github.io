@@ -1,174 +1,210 @@
-# Academic Homepage Template
+## About This Website
 
-A clean, minimal academic homepage template — no build step, no framework, just static HTML/CSS/JS. Drop in your data, push to GitHub Pages, and you're done.
+This website serves as a personal academic portfolio, presenting research interests, publications, projects, academic activities, and professional experience.
 
-- Demo: [Academic-Homepage-Template](https://arvid-pku.github.io/Academic-Homepage-Template/index.html)
-- Customization Guide: [CUSTOMIZATION.md](CUSTOMIZATION.md)
-- Author Homepage: [Xunjian Yin](https://xunjianyin.github.io/)
+The website is built with HTML, CSS, and JavaScript, with a lightweight Python-based content management workflow.
 
-## Features
+### Main Sections
 
-- **Six pages out of the box**: Home, Publications, Projects, Blogs, Photography, CV
-- **Single source of truth**: edit `data.js` for publications/projects/talks/etc. — every page picks it up
-- **Shared site shell**: nav and footer are injected by `site-shell.js`, so you only edit them in one place
-- **Dark mode**: toggle in the nav, persisted in `localStorage`, follows system preference by default
-- **Markdown blog**: write posts as `.md` files in `blogs/` and register them in `blog-data.js`
-- **Photography masonry gallery** with keyboard-navigable lightbox
-- **Responsive**: works from phone to desktop
-- **No build**: just open `index.html` in a browser
+| Section | Description |
+| --- | --- |
+| **Mainpage** | Academic profile, research overview, selected works, and recent updates |
+| **Publications** | Conference papers, publications, and other research outputs |
+| **Projects** | Research and design projects |
+| **Activities** | Academic presentations, conferences, workshops, and research activities |
+| **CV** | Bilingual academic CV with PDF and Word downloads |
 
-## Quick start
+The website also supports individual content pages for publications, projects, and activities.
 
-1. **Fork this repo** to your GitHub account.
-2. **Rename** the fork to `yourusername.github.io` (so GitHub Pages serves it at `https://yourusername.github.io`).
-3. **Clone** locally and start editing:
-   ```bash
-   git clone https://github.com/yourusername/yourusername.github.io.git
-   cd yourusername.github.io
-   ```
-4. **Replace placeholders**:
-   - `index.html` — your name, bio, contact links, news items
-   - `data.js` — publications, projects, research experience, teaching, talks, services, honors
-   - `blog-data.js` + `blogs/*.md` — your blog posts (delete the sample if you don't want a blog)
-   - `site-shell.js` — footer social links and copyright name
-   - `cv.html` — education entries and contact bar
-   - `figures/me.jpg`, `figures/logo.png` — your profile photo and favicon
-   - `files/CV.pdf` — your CV
-   - `photos/` — your photography (and `photos/project-demo/` for project thumbnails)
-   - `sitemap.xml`, `robots.txt` — your real domain
-5. **Commit and push**. Enable GitHub Pages: Settings → Pages → Source: Deploy from branch → Branch: `main`.
+## Project Structure
 
-See [CUSTOMIZATION.md](CUSTOMIZATION.md) for details, and [setup.md](setup.md) for a checklist.
-
-## File layout
-
-```
+```text
 .
-├── index.html              # Home (profile, news, selected papers/projects)
-├── publications.html       # All preprints + publications
-├── projects.html           # All projects with demo images
-├── blogs.html              # Blog list
-├── blog-post.html          # Single blog post viewer (?id=...)
-├── photography.html        # Masonry gallery with lightbox
-├── cv.html                 # Education + everything from data.js
-├── data.js                 # ALL of your content (papers, projects, talks, ...)
-├── blog-data.js            # Blog post metadata
-├── blog-manager.js         # Markdown loading + rendering
-├── main.js                 # Renders data.js into each page
-├── site-shell.js           # Injects shared nav + footer
-├── utils.js                # Dark mode + back-to-top
-├── stylesheet.css          # Base styles + dark mode variables
-├── shared-styles.css       # Nav, footer, publication list, back-to-top
-├── blog-styles.css         # Blog list + post styles
-├── vendor/marked.umd.js    # Markdown parser (vendored)
-├── figures/                # Profile photo + favicon
-├── files/                  # CV.pdf, talk slides, etc.
-├── photos/                 # Photography page images
-│   └── project-demo/       # Project thumbnails referenced by data.js
-├── blogs/                  # Markdown blog posts
-├── sitemap.xml
-├── robots.txt
-└── README.md
+├── index.html
+├── publications.html
+├── projects.html
+├── activities.html
+├── cv.html
+├── content.html
+│
+├── pages/
+│   ├── publications/
+│   ├── projects/
+│   └── activities/
+│
+├── scripts/
+│   └── build_content.py
+├── content-index.js
+├── content-pages.js
+├── content-interactions.js
+│
+├── cv-content.json
+├── cv-page.js
+├── cv-styles.css
+├── build_cv.py
+│
+├── site-shell.js
+├── main.js
+├── home-feed.js
+├── home-selected.js
+├── data.js
+├── utils.js
+│
+├── stylesheet.css
+├── shared-styles.css
+├── content-styles.css
+│
+├── figures/
+├── photos/
+├── files/
+│
+├── .github/
+│   └── workflows/
+│       └── content.yml
+│
+├── README.md
+└── ...
 ```
 
-## Editing content
+## Content Management
 
-### Profile (`index.html`)
+### 1. Publications, Projects & Activities
 
-The profile section, news list, and contact links are inline in `index.html`. Search for `Your Name` and replace.
+Academic content is maintained through Markdown files stored in:
 
-### Publications and projects (`data.js`)
+- `pages/publications/`
+- `pages/projects/`
+- `pages/activities/`
 
-`data.js` is the single source of truth. Every page reads from it.
+Each Markdown file contains YAML front matter and a Markdown body.
 
-```javascript
-const publications = [
-  {
-    title: "Paper Title",
-    authors: "<b>Your Name</b>, Co-Author",
-    venue: "Conference YYYY",
-    links: [
-      { text: "Paper", url: "https://..." },
-      { text: "Code", url: "https://..." }
-    ],
-    abstract: "Abstract text shown in the expandable Abstract toggle.",
-    citation: `<pre><code>@inproceedings{...}</code></pre>`,
-    isNew: true,        // shows a "New" badge
-    isPreprint: false,  // true → shown under Preprints, false → under Publications
-    isSelected: true    // true → also shown on the homepage and CV
-  }
-];
+Example:
 
-const projects = [
-  {
-    title: "Project Name",
-    description: "Short description with <a href=\"...\">Project Homepage</a> link.",
-    badges: [
-      { url: "https://...", img: "https://img.shields.io/..." }
-    ],
-    isSelected: true,             // true → shown on the homepage
-    demoPath: "photos/project-demo/your-project.png"
-  }
-];
+```yaml
+---
+title: "Research Title"
+date: 2026-10-21
+authors: [Wei Feng]
+pub_type: Conference Paper
+tags: [Built Heritage, Graph Learning]
+image: "photos/example.png"
+navs: [main]
+---
+
+### Overview
+
+Research description, images, and references.
 ```
 
-Other arrays in `data.js` you can edit:
-- `researchExperience`, `teaching`, `academicServices`, `talks`, `honors`
+Content can be assigned to different parts of the homepage using the `navs` field:
 
-### Blog posts
+| Value | Function |
+| --- | --- |
+| `main` | Selected publications or projects |
+| `news` | Recent updates |
+| `banner` | Homepage featured banner |
 
-1. Drop a `.md` file into `blogs/`.
-2. Register it in `blog-data.js`:
-   ```javascript
-   {
-     id: "my-post",
-     title: "My Post",
-     date: "2025-01-01",
-     author: "Your Name",
-     excerpt: "One-sentence preview.",
-     tags: ["Tag1", "Tag2"],
-     readTime: 5,
-     markdownFile: "blogs/my-post.md",
-     content: null,
-     htmlContent: null
-   }
-   ```
+For detailed instructions, see [pages/README.md](pages/README.md).
 
-### Photography
+### 2. Building the Content Index
 
-Edit `photography.html` directly — each photo is an inline `<div class="photo-item">` block. Drop the image into `photos/` and update the `<img>` src.
+After editing Markdown files, regenerate the content index:
 
-### Navigation and footer
-
-`site-shell.js` defines `NAV_ITEMS` and `FOOTER_SOCIALS` — edit there instead of touching every HTML page.
-
-### Colors
-
-Edit the CSS variables at the top of `stylesheet.css`:
-
-```css
-:root {
-  --primary-color: #0065C0;
-  --secondary-color: #f09228;
-  /* ... */
-}
-
-[data-theme="dark"] {
-  --primary-color: #6BA3F5;
-  /* ... */
-}
+```bash
+python scripts/build_content.py
 ```
+
+For continuous local editing:
+
+```bash
+python scripts/build_content.py --watch
+```
+
+This generates `content-index.js`, which supplies content to the website.
+
+**Do not manually edit `content-index.js`.**
+
+A GitHub Actions workflow is also configured to update the content index when relevant source files are pushed.
+
+### 3. Academic CV
+
+The bilingual CV is maintained through a structured JSON file:
+
+```text
+cv-content.json
+```
+
+Each content block includes English and Chinese versions.
+
+
+The CV generation workflow produces:
+
+```text
+cv-page.js
+
+files/
+├── *-CV-EN.pdf
+├── *-CV-EN.docx
+├── *-CV-ZH.pdf
+└── *-CV-ZH.docx
+```
+
+The repository includes `build_cv.py` for generating CV outputs:
+
+```bash
+python build_cv.py
+```
+
+When using a locally customized compact CV generator, ensure that both the downloadable documents and `cv-page.js` are regenerated from the same JSON source.
+
+
+## Local Development
+
+Clone the repository:
+
+```bash
+git clone https://github.com/wei-fng/wei-fng.github.io.git
+cd wei-fng.github.io
+```
+
+Start a local development server:
+
+```bash
+python -m http.server 8000
+```
+
+Open:
+
+```text
+http://localhost:8000
+```
+
+The frontend does not require a JavaScript framework or bundler.
+
+However, changes to Markdown content and CV data require their respective Python generation scripts before the webpage reflects those updates.
 
 ## Deployment
 
-### GitHub Pages
+The website is designed for static hosting, including GitHub Pages.
 
-Enable Pages on a `yourusername.github.io` repo and the site is live. Pushes to `main` redeploy automatically.
+After editing and checking the relevant files:
 
-### Anywhere else
+```bash
+git status
+git add .
+git commit -m "Update academic homepage"
+git pull --rebase origin main
+git push origin main
+```
 
-It's static HTML — Netlify, Vercel, S3, plain nginx, etc. all work. No build step.
+Review staged changes before committing, as `git add .` includes all changed files under the current directory.
 
-## License
+Website publication depends on the hosting configuration. The content-index GitHub Actions workflow updates generated data but does not itself configure or publish GitHub Pages.
 
-Free to use for personal and academic homepages. Attribution appreciated but not required.
+## Acknowledgements
+
+This website was developed and customized based on the open-source [Academic Homepage Template](https://github.com/arvid-pku/Academic-Homepage-Template), originally created by [Xunjian Yin](https://xunjianyin.github.io/).
+
+---
+
+© 2026 Wei Feng.

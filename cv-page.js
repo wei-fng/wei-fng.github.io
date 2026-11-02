@@ -4,17 +4,23 @@ let cvLanguage =
     ? 'zh'
     : 'en';
 
-const cvContent = [{"kind": "text", "en": "WEI FENG", "zh": "冯薇"}, {"kind": "text", "en": "Ph.D. Student in Architecture | AI for Built Heritage", "zh": "建筑学博士研究生 | 面向建成遗产的人工智能"}, {"kind": "text", "en": "Laboratory of Architectural Algorithms & Applications (Lab AAA), School of Architecture, Southeast University\nEmail: wei.feng@seu.edu.cn | Tel: (+86) 18851667823", "zh": "东南大学建筑学院 · 建筑运算与应用实验室（Lab AAA）\n邮箱：wei.feng@seu.edu.cn | 电话：(+86) 18851667823"}, {"kind": "heading", "en": "RESEARCH PROFILE", "zh": "研究方向"}, {"kind": "text", "en": "Research in AI approaches to understanding built heritage, particularly through graph learning and temporal knowledge representation to investigate the spatio-temporal organization and transformation of historic built environments.", "zh": "研究聚焦人工智能驱动的建成遗产研究，主要通过图深度学习与时序知识表征等方法，探索历史建成环境的时空组织与演变。"}, {"kind": "heading", "en": "EDUCATION", "zh": "教育经历"}, {"kind": "date", "en": "Sep 2024 – Present", "zh": "2024.09—至今"}, {"kind": "entry", "en": "Ph.D. Student in Architecture (Direct-entry), Southeast University, School of Architecture", "zh": "东南大学建筑学院，建筑学博士研究生（直博）"}, {"kind": "date", "en": "Feb 2024 – Jul 2024", "zh": "2024.02—2024.07"}, {"kind": "entry", "en": "Exchange Student, Politecnico di Torino, Department of Architecture and Design, Italy", "zh": "意大利都灵理工大学，建筑与设计学院，交换"}, {"kind": "date", "en": "Aug 2019 – Jun 2024", "zh": "2019.08—2024.06"}, {"kind": "entry", "en": "Bachelor of Architecture, Southeast University, School of Architecture", "zh": "东南大学建筑学院，建筑学学士"}, {"kind": "date", "en": "Sep 2018 – Aug 2019", "zh": "2018.09—2019.08"}, {"kind": "entry", "en": "Engineering Experimental Class, Chien-Shiung Wu College, Southeast University", "zh": "东南大学吴健雄学院，工科试验班"}, {"kind": "heading", "en": "RESEARCH PROJECTS", "zh": "科研项目"}, {"kind": "date", "en": "Jan 2026 – Dec 2027", "zh": "2026.01—2027.12"}, {"kind": "entry", "en": "Multi-source Spatiotemporal Evolution Mapping and Intelligent Decision-Making for Historic Urban Landscapes", "zh": "面向历史性城市景观的多源时空演化图谱建构与智能决策方法研究"}, {"kind": "text", "en": "Tongxin Urban Renewal Education Fund, Southeast University, Principal Investigator, Ongoing", "zh": "东南大学同心城市更新教育基金, 主持, 在研"}, {"kind": "heading", "en": "CONFERENCE PAPERS & ACADEMIC PRESENTATIONS", "zh": "会议论文与学术报告"}, {"kind": "date", "en": "21 Oct 2026", "zh": "2026.10.21"}, {"kind": "entry", "en": "Identifying Relational Similarities in Living Historic Settlements: A Spatio-Temporal Graph Study of 8,155 Chinese Traditional Villages", "zh": "Identifying Relational Similarities in Living Historic Settlements: A Spatio-Temporal Graph Study of 8,155 Chinese Traditional Villages"}, {"kind": "text", "en": "22nd ICOMOS General Assembly and Scientific Symposium (ICOMOS GA 2026), Oral Presentation, Kuching, Malaysia.", "zh": "第22届国际古迹遗址理事会大会及科学研讨会（ICOMOS GA 2026）, 口头报告, 马来西亚古晋。"}, {"kind": "date", "en": "23 Oct 2026", "zh": "2026.10.23"}, {"kind": "entry", "en": "From Morphology to Relations: A Spatio-Temporal Graph Study of 8,155 Chinese Traditional Villages", "zh": "From Morphology to Relations: A Spatio-Temporal Graph Study of 8,155 Chinese Traditional Villages"}, {"kind": "text", "en": "Guest Seminar, Knowledge Modelling for Built Heritage & Conservation, National University of Singapore, Singapore.", "zh": "受邀报告, Knowledge Modelling for Built Heritage & Conservation, 新加坡国立大学, 新加坡。"}, {"kind": "date", "en": "18 Jun 2025", "zh": "2025.06.18"}, {"kind": "entry", "en": "Behavior-oriented Urban Spatial Form Optimization Driven by Operations Research Algorithms: A Case Study of a Mixed-Use Residential Community in Nanjing", "zh": "Behavior-oriented Urban Spatial Form Optimization Driven by Operations Research Algorithms: A Case Study of a Mixed-Use Residential Community in Nanjing"}, {"kind": "text", "en": "32nd International Seminar on Urban Form (ISUF 2025), Oral Presentation & Full Paper, Turin, Italy.", "zh": "第32届国际城市形态研讨会（ISUF 2025）, 口头报告及论文, 意大利都灵。"}, {"kind": "heading", "en": "TEACHING EXPERIENCE", "zh": "教学经历"}, {"kind": "date", "en": "Jun 2026 - Jul 2026", "zh": "2026.06-2026.07"}, {"kind": "entry", "en": "DigitalFUTURES 2026 Summer Workshop - Weaving Dreams: Knowledge Decoding and AI Reimagining of Historic Districts", "zh": "DigitalFUTURES 2026 暑期工作营 “织梦：历史街区的知识解码与AI重构”"}, {"kind": "text", "en": "Teaching Assistant, Tongji University, Shanghai, China", "zh": "助教, 上海, 同济大学"}, {"kind": "date", "en": "2026-2027 Fall", "zh": "2026-2027学年秋季学期"}, {"kind": "entry", "en": "Graduate Architecture Design Studio - Urban Design for the Valens Aqueduct and Its Surrounding Historic Urban Area, Istanbul", "zh": "研究生设计课题 “伊斯坦布尔瓦伦斯水道桥及其周边历史城区城市设计”"}, {"kind": "text", "en": "Teaching Assistant, Southeast University, Nanjing, China", "zh": "助教, 南京, 东南大学"}, {"kind": "date", "en": "2024-2025 Fall", "zh": "2024-2025学年秋季学期"}, {"kind": "entry", "en": "Graduate Course - Introduction to AI for Architects", "zh": "研究生课程 “面向建筑师的编程与人工智能导论”"}, {"kind": "text", "en": "Teaching Assistant, Southeast University, Nanjing, China", "zh": "助教, 南京, 东南大学"}, {"kind": "heading", "en": "SELECTED SCHOLARSHIPS, AWARDS & HONORS", "zh": "代表性奖学金与荣誉"}, {"kind": "date", "en": "2024", "zh": "2024"}, {"kind": "entry", "en": "Zhishan Excellence Selection Programme for Direct-entry Ph.D. Students", "zh": "直博生“至善优选”专项选拔计划"}, {"kind": "text", "en": "Southeast University", "zh": "东南大学"}, {"kind": "date", "en": "2022", "zh": "2022"}, {"kind": "entry", "en": "China National Scholarship", "zh": "国家奖学金"}, {"kind": "text", "en": "Ministry of Education of the People's Republic of China", "zh": "中华人民共和国教育部"}, {"kind": "date", "en": "2022", "zh": "2022"}, {"kind": "entry", "en": "Cheng Taining Award Fund", "zh": "程泰宁奖励基金"}, {"kind": "text", "en": "Architectural Design and Theory Research Center, Southeast University", "zh": "东南大学建筑设计与理论研究中心"}, {"kind": "date", "en": "2019, 2020", "zh": "2019、2020"}, {"kind": "entry", "en": "Cyrus Tang Scholarship", "zh": "唐仲英德育奖学金"}, {"kind": "text", "en": "Southeast University", "zh": "东南大学"}, {"kind": "date", "en": "2019", "zh": "2019"}, {"kind": "entry", "en": "Outstanding Student (Three-Good Student)", "zh": "三好学生"}, {"kind": "text", "en": "Southeast University", "zh": "东南大学"}, {"kind": "heading", "en": "RESEARCH METHODS & SKILLS", "zh": "研究方法与技能"}, {"kind": "text", "en": "Graph Learning & Knowledge Representation: Graph Neural Networks (GNNs), Temporal Knowledge Graphs (TKGs).", "zh": "图学习与知识表征：图神经网络（GNNs）、时序知识图谱（TKGs）。"}, {"kind": "text", "en": "Spatial & Computational Analysis: Geographic Information Systems (GIS), Remote Sensing, Spatial Network Analysis, Spatio-temporal Data Modelling.", "zh": "空间与计算分析：地理信息系统（GIS）、遥感分析、空间网络分析、时空数据建模。"}, {"kind": "heading", "en": "LANGUAGES", "zh": "语言能力"}, {"kind": "text", "en": "English: CET-6 676/710; CET-4 599/710", "zh": "英语: 大学英语六级 676/710; 大学英语四级 599/710"}];
+const cvContent = [{"kind": "text", "en": "WEI FENG", "zh": "冯薇"}, {"kind": "text", "en": "Ph.D. Student in Architecture | AI for Built Heritage", "zh": "建筑学博士研究生 | 面向建成遗产的人工智能"}, {"kind": "text", "en": "Laboratory of Architectural Algorithms & Applications (Lab AAA), School of Architecture, Southeast University\nEmail: wei.feng@seu.edu.cn | Tel: (+86) 18851667823", "zh": "东南大学建筑学院 · 建筑运算与应用实验室（Lab AAA）\n邮箱：wei.feng@seu.edu.cn | 电话：(+86) 18851667823"}, {"kind": "heading", "en": "RESEARCH PROFILE", "zh": "研究方向"}, {"kind": "text", "en": "Research in AI approaches to understanding built heritage, particularly through graph learning and temporal knowledge representation to investigate the spatio-temporal organization and transformation of historic built environments.", "zh": "研究聚焦人工智能驱动的建成遗产研究，主要通过图深度学习与时序知识表征等方法，探索历史建成环境的时空组织与演变。"}, {"kind": "heading", "en": "EDUCATION", "zh": "教育经历"}, {"kind": "date", "en": "Sep 2024 – Present", "zh": "2024.09—至今"}, {"kind": "entry", "en": "Ph.D. Student in Architecture (Direct-entry), Southeast University, School of Architecture", "zh": "东南大学建筑学院，建筑学博士研究生（直博）"}, {"kind": "date", "en": "Feb 2024 – Jul 2024", "zh": "2024.02—2024.07"}, {"kind": "entry", "en": "Exchange Student, Politecnico di Torino, Department of Architecture and Design, Italy", "zh": "意大利都灵理工大学，建筑与设计学院，交换"}, {"kind": "date", "en": "Aug 2019 – Jun 2024", "zh": "2019.08—2024.06"}, {"kind": "entry", "en": "Bachelor of Architecture, Southeast University, School of Architecture", "zh": "东南大学建筑学院，建筑学学士"}, {"kind": "date", "en": "Sep 2018 – Aug 2019", "zh": "2018.09—2019.08"}, {"kind": "entry", "en": "Engineering Experimental Class, Chien-Shiung Wu College, Southeast University", "zh": "东南大学吴健雄学院，工科试验班"}, {"kind": "heading", "en": "RESEARCH PROJECTS", "zh": "科研项目"}, {"kind": "date", "en": "Jan 2026 – Dec 2027", "zh": "2026.01—2027.12"}, {"kind": "entry", "en": "Multi-source Spatiotemporal Evolution Mapping and Intelligent Decision-Making for Historic Urban Landscapes", "zh": "面向历史性城市景观的多源时空演化图谱建构与智能决策方法研究"}, {"kind": "text", "en": "Tongxin Urban Renewal Education Fund, Southeast University, Principal Investigator, Ongoing", "zh": "东南大学同心城市更新教育基金, 主持, 在研"}, {"kind": "heading", "en": "PAPERS & PRESENTATIONS", "zh": "论文与学术报告"}, {"kind": "date", "en": "21 Oct 2026", "zh": "2026.10.21"}, {"kind": "entry", "en": "Identifying Relational Similarities in Living Historic Settlements: A Spatio-Temporal Graph Study of 8,155 Chinese Traditional Villages", "zh": "Identifying Relational Similarities in Living Historic Settlements: A Spatio-Temporal Graph Study of 8,155 Chinese Traditional Villages"}, {"kind": "text", "en": "22nd ICOMOS General Assembly and Scientific Symposium (ICOMOS GA 2026), Oral Presentation, Kuching, Malaysia.", "zh": "第22届国际古迹遗址理事会大会及科学研讨会（ICOMOS GA 2026）, 口头报告, 马来西亚古晋。"}, {"kind": "date", "en": "23 Oct 2026", "zh": "2026.10.23"}, {"kind": "entry", "en": "From Morphology to Relations: A Spatio-Temporal Graph Study of 8,155 Chinese Traditional Villages", "zh": "From Morphology to Relations: A Spatio-Temporal Graph Study of 8,155 Chinese Traditional Villages"}, {"kind": "text", "en": "Guest Seminar, Knowledge Modelling for Built Heritage & Conservation, National University of Singapore, Singapore.", "zh": "主题研讨, Knowledge Modelling for Built Heritage & Conservation, 受邀报告, 新加坡国立大学, 新加坡。"}, {"kind": "date", "en": "18 Jun 2025", "zh": "2025.06.18"}, {"kind": "entry", "en": "Behavior-oriented Urban Spatial Form Optimization Driven by Operations Research Algorithms: A Case Study of a Mixed-Use Residential Community in Nanjing", "zh": "Behavior-oriented Urban Spatial Form Optimization Driven by Operations Research Algorithms: A Case Study of a Mixed-Use Residential Community in Nanjing"}, {"kind": "text", "en": "32nd International Seminar on Urban Form (ISUF 2025), Oral Presentation & Full Paper, Turin, Italy.", "zh": "第32届国际城市形态研讨会（ISUF 2025）, 口头报告及论文, 意大利都灵。"}, {"kind": "heading", "en": "PROFESSIONAL EXPERIENCE", "zh": "专业实践"}, {"kind": "date", "en": "Jul 2023 – Sep 2023", "zh": "2023.07—2023.09"}, {"kind": "entry", "en": "Intern, Jiakun Architects", "zh": "家琨建筑（Jiakun Architects）, 实习生"}, {"kind": "date", "en": "Oct 2022 – Jun 2023", "zh": "2022.10—2023.06"}, {"kind": "entry", "en": "Intern, UNESCO–ICCROM Asian Academy for Heritage Management (AAHM)", "zh": "UNESCO–ICCROM 亚洲遗产管理学院（AAHM）, 实习生"}, {"kind": "heading", "en": "TEACHING EXPERIENCE", "zh": "教学经历"}, {"kind": "date", "en": "Jun 2026 - Jul 2026", "zh": "2026.06-2026.07"}, {"kind": "entry", "en": "DigitalFUTURES 2026 Summer Workshop - Weaving Dreams: Knowledge Decoding and AI Reimagining of Historic Districts", "zh": "DigitalFUTURES 2026 暑期工作营 “织梦：历史街区的知识解码与AI重构”"}, {"kind": "text", "en": "Teaching Assistant, Tongji University, Shanghai, China", "zh": "助教, 上海, 同济大学"}, {"kind": "date", "en": "2026-2027 Fall", "zh": "2026-2027学年秋季学期"}, {"kind": "entry", "en": "Graduate Architecture Design Studio - Urban Design for the Valens Aqueduct and Its Surrounding Historic Urban Area, Istanbul", "zh": "研究生设计课题 “伊斯坦布尔瓦伦斯水道桥及其周边历史城区城市设计”"}, {"kind": "text", "en": "Teaching Assistant, Southeast University, Nanjing, China", "zh": "助教, 南京, 东南大学"}, {"kind": "date", "en": "2024-2025 Fall", "zh": "2024-2025学年秋季学期"}, {"kind": "entry", "en": "Graduate Course - Introduction to AI for Architects", "zh": "研究生课程 “面向建筑师的编程与人工智能导论”"}, {"kind": "text", "en": "Teaching Assistant, Southeast University, Nanjing, China", "zh": "助教, 南京, 东南大学"}, {"kind": "heading", "en": "SELECTED SCHOLARSHIPS, AWARDS & HONORS", "zh": "代表性奖学金与荣誉"}, {"kind": "date", "en": "2024", "zh": "2024"}, {"kind": "entry", "en": "Zhishan Excellence Selection Programme for Direct-entry Ph.D. Students", "zh": "直博生“至善优选”专项选拔计划"}, {"kind": "text", "en": "Southeast University", "zh": "东南大学"}, {"kind": "date", "en": "2022", "zh": "2022"}, {"kind": "entry", "en": "China National Scholarship", "zh": "国家奖学金"}, {"kind": "text", "en": "Ministry of Education of the People's Republic of China", "zh": "中华人民共和国教育部"}, {"kind": "date", "en": "2022", "zh": "2022"}, {"kind": "entry", "en": "Cheng Taining Award Fund", "zh": "程泰宁奖励基金"}, {"kind": "text", "en": "Architectural Design and Theory Research Center, Southeast University", "zh": "东南大学建筑设计与理论研究中心"}, {"kind": "date", "en": "2019, 2020", "zh": "2019、2020"}, {"kind": "entry", "en": "Cyrus Tang Scholarship", "zh": "唐仲英德育奖学金"}, {"kind": "text", "en": "Southeast University", "zh": "东南大学"}, {"kind": "date", "en": "2019", "zh": "2019"}, {"kind": "entry", "en": "Outstanding Student (Three-Good Student)", "zh": "三好学生"}, {"kind": "text", "en": "Southeast University", "zh": "东南大学"}, {"kind": "heading", "en": "RESEARCH METHODS & SKILLS", "zh": "研究方法与技能"}, {"kind": "text", "en": "Graph Learning & Knowledge Representation: Graph Neural Networks (GNNs), Temporal Knowledge Graphs (TKGs).", "zh": "图学习与知识表征：图神经网络（GNNs）、时序知识图谱（TKGs）。"}, {"kind": "text", "en": "Spatial & Computational Analysis: Geographic Information Systems (GIS), Remote Sensing, Spatial Network Analysis, Spatio-temporal Data Modelling.", "zh": "空间与计算分析：地理信息系统（GIS）、遥感分析、空间网络分析、时空数据建模。"}, {"kind": "heading", "en": "LANGUAGES", "zh": "语言能力"}, {"kind": "text", "en": "English: CET-6 676/710; CET-4 599/710", "zh": "英语: 大学英语六级 676/710; 大学英语四级 599/710"}];
 
+// 防止特殊字符破坏 HTML
 const escapeCV = value => String(value)
   .replaceAll('&', '&amp;')
   .replaceAll('<', '&lt;')
   .replaceAll('>', '&gt;')
-  .replaceAll('"', '&quot;');
+  .replaceAll('"', '&quot;')
+  .replaceAll("'", '&#39;');
 
+// 切换语言并更新页面
 function setCVLanguage(lang) {
+  if (lang !== 'en' && lang !== 'zh') return;
+
   cvLanguage = lang;
 
+  // 更新语言切换按钮
   document.querySelectorAll('[data-lang]').forEach(button => {
     button.setAttribute(
       'aria-pressed',
@@ -27,37 +33,75 @@ function setCVLanguage(lang) {
 
   profile.lang = lang === 'zh' ? 'zh-CN' : 'en';
 
+  // 根据 JSON 数据生成网页内容
   profile.innerHTML = cvContent.map((block, index) => {
-    const value = escapeCV(block[lang]).replaceAll('\n', '<br>');
+    const value = escapeCV(block[lang])
+      .replaceAll('\n', '<br>');
 
+    // 姓名
     if (index === 0) {
       return `<h1>${value}</h1>`;
     }
 
+    // 章节标题
     if (block.kind === 'heading') {
       return `<h2>${value}</h2>`;
     }
 
-    return `<p class="cv-${block.kind}">${value}</p>`;
+    // 日期：左栏
+    if (block.kind === 'date') {
+      return `<p class="cv-date">${value}</p>`;
+    }
+
+    // 经历标题：右栏
+    if (block.kind === 'entry') {
+      return `<p class="cv-entry">${value}</p>`;
+    }
+
+    // 紧跟 entry 的 text 作为说明文字
+    if (
+      block.kind === 'text' &&
+      index > 0 &&
+      cvContent[index - 1].kind === 'entry'
+    ) {
+      return `<p class="cv-sub">${value}</p>`;
+    }
+
+    // 其他正文：全宽
+    return `<p class="cv-text">${value}</p>`;
+
   }).join('');
 
+  // 根据当前语言更新下载文件
   for (const format of ['pdf', 'docx']) {
     const link = document.getElementById('cv-' + format);
+
     if (link) {
       link.href =
         `files/Wei-Feng-CV-${lang.toUpperCase()}.${format}`;
     }
   }
 
+  // 更新 URL 中的语言参数
   const url = new URL(location.href);
   url.searchParams.set('lang', lang);
   history.replaceState(null, '', url);
 }
 
-document.querySelectorAll('[data-lang]').forEach(button => {
-  button.addEventListener('click', () => {
-    setCVLanguage(button.dataset.lang);
+// 初始化按钮与内容
+function initCV() {
+  document.querySelectorAll('[data-lang]').forEach(button => {
+    button.addEventListener('click', () => {
+      setCVLanguage(button.dataset.lang);
+    });
   });
-});
 
-setCVLanguage(cvLanguage);
+  setCVLanguage(cvLanguage);
+}
+
+// 确保 DOM 加载完成后再初始化
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initCV);
+} else {
+  initCV();
+}

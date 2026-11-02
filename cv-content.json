@@ -92,8 +92,8 @@
   },
   {
     "kind": "heading",
-    "en": "CONFERENCE PAPERS & ACADEMIC PRESENTATIONS",
-    "zh": "会议论文与学术报告"
+    "en": "PAPERS & PRESENTATIONS",
+    "zh": "论文与学术报告"
   },
   {
     "kind": "date",
@@ -123,7 +123,7 @@
   {
     "kind": "text",
     "en": "Guest Seminar, Knowledge Modelling for Built Heritage & Conservation, National University of Singapore, Singapore.",
-    "zh": "受邀报告, Knowledge Modelling for Built Heritage & Conservation, 新加坡国立大学, 新加坡。"
+    "zh": "主题研讨, Knowledge Modelling for Built Heritage & Conservation, 受邀报告, 新加坡国立大学, 新加坡。"
   },
   {
     "kind": "date",
@@ -139,6 +139,31 @@
     "kind": "text",
     "en": "32nd International Seminar on Urban Form (ISUF 2025), Oral Presentation & Full Paper, Turin, Italy.",
     "zh": "第32届国际城市形态研讨会（ISUF 2025）, 口头报告及论文, 意大利都灵。"
+  },
+  {
+    "kind": "heading",
+    "en": "PROFESSIONAL EXPERIENCE",
+    "zh": "专业实践"
+  },
+  {
+    "kind": "date",
+    "en": "Jul 2023 – Sep 2023",
+    "zh": "2023.07—2023.09"
+  },
+  {
+    "kind": "entry",
+    "en": "Intern, Jiakun Architects",
+    "zh": "家琨建筑（Jiakun Architects）, 实习生"
+  },
+  {
+    "kind": "date",
+    "en": "Oct 2022 – Jun 2023",
+    "zh": "2022.10—2023.06"
+  },
+  {
+    "kind": "entry",
+    "en": "Intern, UNESCO–ICCROM Asian Academy for Heritage Management (AAHM)",
+    "zh": "UNESCO–ICCROM 亚洲遗产管理学院（AAHM）, 实习生"
   },
   {
     "kind": "heading",
