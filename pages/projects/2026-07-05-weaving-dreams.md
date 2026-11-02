@@ -21,6 +21,13 @@ remote_project: false
 <div class="wf-workshop-intro">
   <div class="wf-workshop-meta">
     <div>
+      <span>JOINT WORKSHOP / 联合工作营</span>
+      <p>
+        <strong>Southeast University × National University of Singapore</strong>
+      </p>
+      <p>东南大学建筑学院 × 新加坡国立大学</p>
+    </div>
+    <div>
       <span>INSTRUCTORS / 指导教师</span>
       <p>
         <a href="https://archialgo.com/people/tangpeng">Peng Tang 唐芃</a> ,
@@ -94,12 +101,14 @@ remote_project: false
   controls
   playsinline
   preload="metadata"
-  poster="https://archialgo-com-sources.oss-cn-hangzhou.aliyuncs.com/images/2026-07-05-weaving-dreams/df2026-video-cover.jpg"
+  poster="/photos/project/df2026-cover.png"
   style="width:100%; height:auto; aspect-ratio:16/9; object-fit:contain; background:#000; border-radius:8px;"
 >
   <source
-    src="https://archialgo-com-sources.oss-cn-hangzhou.aliyuncs.com/images/2026-07-05-weaving-dreams/df2026-video.mp4"
+    src="/photos/project/df2026-video.mp4"
     type="video/mp4">
+  Your browser does not support embedded video.
+  <a href="/photos/project/df2026-video.mp4">Download the workshop video</a>.
 </video>
 
 <h4 class="text-center mt-5">Moments</h4>

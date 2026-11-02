@@ -5,3 +5,7 @@ store/
 *.zip
 test.html
 tmp/
+photos/portfolio/
+generate_research_portfolio.py
+files/Wei-Feng-Selected-Research.pdf
+.history/
