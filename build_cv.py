@@ -140,7 +140,7 @@ def build_pdf(lang):
     styles={
         'name':S('name'+lang,17,21,NAVY,spaceAfter=4,font=bold_font),
         'header':S('header'+lang,8.5,11,INK,spaceAfter=2.5),
-        'heading':S('heading'+lang,9.4,12,NAVY,spaceBefore=5.0,spaceAfter=2.8,keepWithNext=True,font=bold_font),
+        'heading':S('heading'+lang,9.0,12,NAVY,spaceBefore=3.0,spaceAfter=2.3,keepWithNext=True,font=bold_font),
         'date':S('date'+lang,7.9,10.1,GRAY,font=bold_font),
         'entry':S('entry'+lang,8.6,11.2,INK,spaceAfter=1,font=bold_font),
         'sub':S('sub'+lang,8.1,10.7,GRAY),

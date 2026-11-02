@@ -37,8 +37,13 @@
   },
   {
     "kind": "entry",
-    "en": "Ph.D. Student in Architecture (Direct-entry), Southeast University, School of Architecture",
-    "zh": "东南大学建筑学院，建筑学博士研究生（直博）"
+    "en": "Southeast University, School of Architecture",
+    "zh": "东南大学建筑学院"
+  },
+  {
+    "kind": "text",
+    "en": "Ph.D. Student in Architecture (Direct-entry)",
+    "zh": "建筑学博士研究生（直博）"
   },
   {
     "kind": "date",
@@ -47,8 +52,13 @@
   },
   {
     "kind": "entry",
-    "en": "Exchange Student, Politecnico di Torino, Department of Architecture and Design, Italy",
-    "zh": "意大利都灵理工大学，建筑与设计学院，交换"
+    "en": "Politecnico di Torino, Department of Architecture and Design, Italy",
+    "zh": "意大利都灵理工大学，建筑与设计学院"
+  },
+  {
+    "kind": "text",
+    "en": "Exchange Student",
+    "zh": "交换"
   },
   {
     "kind": "date",
@@ -57,8 +67,13 @@
   },
   {
     "kind": "entry",
-    "en": "Bachelor of Architecture, Southeast University, School of Architecture",
-    "zh": "东南大学建筑学院，建筑学学士"
+    "en": "Southeast University, School of Architecture",
+    "zh": "东南大学建筑学院"
+  },
+  {
+    "kind": "text",
+    "en": "Bachelor of Architecture",
+    "zh": "建筑学学士"
   },
   {
     "kind": "date",
@@ -67,8 +82,13 @@
   },
   {
     "kind": "entry",
-    "en": "Engineering Experimental Class, Chien-Shiung Wu College, Southeast University",
-    "zh": "东南大学吴健雄学院，工科试验班"
+    "en": "Southeast University, Chien-Shiung Wu College",
+    "zh": "东南大学吴健雄学院"
+  },
+  {
+    "kind": "text",
+    "en": "Engineering Experimental Class",
+    "zh": "工科试验班"
   },
   {
     "kind": "heading",
@@ -92,8 +112,8 @@
   },
   {
     "kind": "heading",
-    "en": "PAPERS & PRESENTATIONS",
-    "zh": "论文与学术报告"
+    "en": "ACADEMIC PAPERS",
+    "zh": "学术论文"
   },
   {
     "kind": "date",
@@ -109,21 +129,6 @@
     "kind": "text",
     "en": "22nd ICOMOS General Assembly and Scientific Symposium (ICOMOS GA 2026), Oral Presentation, Kuching, Malaysia.",
     "zh": "第22届国际古迹遗址理事会大会及科学研讨会（ICOMOS GA 2026）, 口头报告, 马来西亚古晋。"
-  },
-  {
-    "kind": "date",
-    "en": "23 Oct 2026",
-    "zh": "2026.10.23"
-  },
-  {
-    "kind": "entry",
-    "en": "From Morphology to Relations: A Spatio-Temporal Graph Study of 8,155 Chinese Traditional Villages",
-    "zh": "From Morphology to Relations: A Spatio-Temporal Graph Study of 8,155 Chinese Traditional Villages"
-  },
-  {
-    "kind": "text",
-    "en": "Guest Seminar, Knowledge Modelling for Built Heritage & Conservation, National University of Singapore, Singapore.",
-    "zh": "主题研讨, Knowledge Modelling for Built Heritage & Conservation, 受邀报告, 新加坡国立大学, 新加坡。"
   },
   {
     "kind": "date",
@@ -152,8 +157,13 @@
   },
   {
     "kind": "entry",
-    "en": "Intern, Jiakun Architects",
-    "zh": "家琨建筑（Jiakun Architects）, 实习生"
+    "en": "Jiakun Architects",
+    "zh": "家琨建筑（Jiakun Architects）"
+  }, 
+  {
+    "kind": "text",
+    "en": "Intern, Chengdu, China",
+    "zh": "实习生, 四川成都"
   },
   {
     "kind": "date",
@@ -162,8 +172,13 @@
   },
   {
     "kind": "entry",
-    "en": "Intern, UNESCO–ICCROM Asian Academy for Heritage Management (AAHM)",
-    "zh": "UNESCO–ICCROM 亚洲遗产管理学院（AAHM）, 实习生"
+    "en": "UNESCO–ICCROM Asian Academy for Heritage Management (AAHM)",
+    "zh": "UNESCO–ICCROM 亚洲遗产管理学院（AAHM）"
+  },
+  {
+    "kind": "text",
+    "en": "Intern, Nanjing, China",
+    "zh": "实习生, 南京"
   },
   {
     "kind": "heading",
