@@ -66,7 +66,7 @@ window.PAGE_CONTENT = [
     "description": null,
     "category": "publications",
     "id": "publications/2026-10-21-icomos",
-    "body": "### Overview\n\nThis study investigates relational similarities among 8,155 Chinese traditional villages through spatio-temporal graph representations. By modelling the spatial organization of settlements and examining geographical, cultural, and industrial contexts, it explores how meaningful commonalities can be identified beyond visible morphological resemblance, offering a computational perspective on the comparative study of living historic settlements.\n\n### Keywords\n\nLiving historic settlements; Chinese traditional villages; Similarity network; Spatio-temporal heterogeneous graphs; Digital Heritage\n\n---\n\n![ICOMOS GA2026 Research Presentation](photos\\publication\\icomos-fw-content.jpg)\n",
+    "body": "### Overview\n\nThis study investigates relational similarities among 8,155 Chinese traditional villages through spatio-temporal graph representations. By modelling the spatial organization of settlements and examining geographical, cultural, and industrial contexts, it explores how meaningful commonalities can be identified beyond visible morphological resemblance, offering a computational perspective on the comparative study of living historic settlements.\n\n### Keywords\n\nLiving historic settlements; Chinese traditional villages; Similarity network; Spatio-temporal heterogeneous graphs; Digital Heritage\n\n---\n\n![ICOMOS GA2026 Research Presentation](photos/publication/icomos-fw-content.jpg)\n",
     "file": "pages/publications/2026-10-21-icomos.md"
   },
   {
@@ -165,7 +165,7 @@ window.PAGE_CONTENT = [
     "date": "2025-07-15",
     "category": "publications",
     "id": "publications/2025-07-15-isuf",
-    "body": "### Overview\n\nThis study proposes an operations research-driven approach to behaviour-oriented urban spatial optimization. A two-stage integer programming model integrates building geometry, spatial adjacency, daylight requirements, residential unit arrangements, and pedestrian connectivity to support multi-objective residential community design.\n\n### Keywords\n\nUrban Morphology; Operations Research; Integer Programming; Residential Design; Spatial Optimization\n\n---\n\n![ISUF 2025 Research Figure 1](photos\\publication\\isuf-fw-1.png)\n\n![ISUF 2025 Research Figure 2](photos\\publication\\isuf-fw-2.png)\n",
+    "body": "### Overview\n\nThis study proposes an operations research-driven approach to behaviour-oriented urban spatial optimization. A two-stage integer programming model integrates building geometry, spatial adjacency, daylight requirements, residential unit arrangements, and pedestrian connectivity to support multi-objective residential community design.\n\n### Keywords\n\nUrban Morphology; Operations Research; Integer Programming; Residential Design; Spatial Optimization\n\n---\n\n![ISUF 2025 Research Figure 1](photos/publication/isuf-fw-1.png)\n\n![ISUF 2025 Research Figure 2](photos/publication/isuf-fw-2.png)\n",
     "file": "pages/publications/2025-07-15-isuf.md"
   },
   {
